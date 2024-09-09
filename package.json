@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "pdfix-sdk": "^7.1.2"
+    "pdfix-sdk": "^8.2.0"
   }
 }
