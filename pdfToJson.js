@@ -1,3 +1,10 @@
+/*
+  `pdfToJson.js`, demonstrates how to use the PDFix SDK for Node.js to convert 
+  a PDF document's content into a JSON format. It opens a PDF, extracts its text, 
+  images, and metadata, and then structures the data as JSON for easy 
+  integration with other applications.
+*/
+
 const Pdfix = require('pdfix-sdk');
 
 const pdfixSdkWrapper = new Pdfix();

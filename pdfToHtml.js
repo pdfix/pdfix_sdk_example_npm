@@ -1,3 +1,10 @@
+/*
+  `pdfToHtml.js`, demonstrates how to use the PDFix SDK for Node.js to convert a PDF document 
+  to HTML format. It opens a PDF, extracts its content (text, images, and layout), and 
+  converts it to a structured HTML representation, preserving the original document's formatting,
+  responsive HTML layout, or layout defined by PDF Tags.
+*/
+
 const Pdfix = require('pdfix-sdk');
 
 const pdfixSdkWrapper = new Pdfix();

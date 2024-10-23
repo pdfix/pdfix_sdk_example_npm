@@ -1,3 +1,10 @@
+/*
+  `pdfMakeAccessible.js`, demonstrates how to use the PDFix SDK for Node.js to convert 
+  a PDF document into an accessible format. It opens a PDF, performs auto-tagging 
+  to create a structure tree, adjusts the content for compliance (e.g., reading order, 
+  alt text), and saves the accessible PDF.
+*/
+
 const Pdfix = require('pdfix-sdk');
 
 const pdfixSdkWrapper = new Pdfix();

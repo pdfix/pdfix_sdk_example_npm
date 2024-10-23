@@ -1,3 +1,7 @@
+/*
+  `index.js`, demonstrates how to use the PDFix SDK for Node.js
+*/
+
 const Pdfix = require('pdfix-sdk');
 
 const pdfixSdkWrapper = new Pdfix();
