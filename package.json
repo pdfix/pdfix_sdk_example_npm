@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "pdfix-sdk": "^8.2.0"
+    "pdfix-sdk": "file:../../../Desktop/pdfix-sdk/v8.3.0/d1e7adf490a2740aabd42253baa4973c82013a03/npm/pdfix-sdk-8.3.0.tgz"
   }
 }
