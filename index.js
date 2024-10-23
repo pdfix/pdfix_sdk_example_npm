@@ -11,8 +11,7 @@ pdfixSdkWrapper.loadPdfixSdk().then(() => {
     version: pdfDoc.GetVersion(),
     pdfStandard: pdfDoc.GetPdfStandard()
   });
-  // your code ...
+  // your code comes here ...
 
   pdfDoc.Close();
-  pdfix.Destroy();
 });

@@ -36,5 +36,4 @@ pdfixSdkWrapper.loadPdfixSdk().then(() => {
   console.log(str)
 
   pdfDoc.Close();
-  pdfix.Destroy();
 });
